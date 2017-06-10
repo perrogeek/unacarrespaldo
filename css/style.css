@@ -1,0 +1,44 @@
+/*Slider*/
+.slider_h,.slider_p,.slider_s,.slider_x{
+	border:5px solid #036;
+	width:90%;
+	margin:0 auto;
+	position:relative;
+	overflow: hidden;
+}
+.s_element{
+	position:relative;
+	width:100%;
+	height:100%;
+	display:none;
+}
+
+.s_visible
+{
+	display:block;
+
+}
+
+#ele1,#ele2,#ele3,#ele4{
+	width: 100%;
+	margin: 0 auto;
+}
+#ele1 img,#ele2 img,#ele3 img,#ele4 img{
+	width: 100%;
+}
+
+/*Body*/
+
+/*Content*/
+
+
+
+/*Header*/
+
+
+/*Menu */
+
+
+
+/*Footer*/
+

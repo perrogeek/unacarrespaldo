@@ -1,0 +1,12 @@
+var bachelor =[
+	{
+		"id":1,
+		"name":"culofeo"
+	},
+	{
+
+		"id":2,
+		"name":"culomasfeo"
+	}
+
+]

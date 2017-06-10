@@ -1,0 +1,429 @@
+azul_institucional=#003366
+amarillo_institucional=#CC9900
+gris=#CCCCCC
+#objetivo_general,#PerfilIngreso,#PerfilEgreso,#Titulacion,#CampoLaboral,#Info
+	text-align justify
+#MovilObjetivoGeneral,#MovilPerfilIngreso,#MovilPerfilEgreso,#MovilTitulacion,#MovilCampoLaboral,#MovilInfo
+	text-align center
+.TerTitulo
+	color azul_institucional
+.ParrCheck
+	text-align left
+	&::before
+		content"\e619"
+		font-family icono
+		color azul_institucional
+.descargar
+	content "\e615"
+	font-familyn icono
+	font-weight bold
+.TextCom
+	text-align justify
+.MailGest
+	text-align left
+	font-weight bold
+	&:before
+		content "\e615"
+		font-family icono
+		color azul_institucional
+.NameGest
+	text-align left
+	font-weight bold
+	&:before
+		content "\e60d"
+		font-family icono
+		color azul_institucional
+.icon-untitled12
+	font-size 5em
+	vertical-align middle
+	color azul_institucional
+	transition all 1s ease
+	-webkit-transition all 1s ease
+	-moz-transition all 1s ease
+	-ms-transition all 1s ease
+	-o-transition all 1s ease
+	&:hover
+		color amarillo_institucional
+		font-weight bold
+		-webkit-transform rotate(720deg)
+		-webkit-transform rotate(720deg)
+		-moz-transform rotate(720deg)
+		-ms-transform rotate(720deg)
+		-o-transform rotate(720deg)
+	 	&:before
+	 		font-family icono
+			content "\e60b"
+ul,li,a
+	margin 0px
+	padding 0px
+	text-decoration none
+	list-style none
+#title
+	color azul_institucional
+	text-align center
+	margin 0
+	padding-bottom 2em
+.SubTitulo
+	color amarillo_institucional
+	font-weight bold
+#info
+	text-align center
+.gestor
+	color azul_institucional
+@media screen and (max-width: 480px)
+	#todo
+		display none
+	.icon-flag2:before
+		font-size 2em
+		vertical-align middle
+		color amarillo_institucional
+		content "\e618"	
+	.icon-group:before
+		font-size 2em
+		vertical-align middle
+		color amarillo_institucional
+		content "\f0c0"
+	.icon-person:before
+		font-size 2em
+		vertical-align middle
+		color amarillo_institucional
+		content "\e60d"
+	.icon-suitcase:before
+		font-size 2em
+		vertical-align middle
+		color amarillo_institucional
+		content "\f0f2"
+	.icon-graduate:before
+		font-size 2em
+		vertical-align middle
+		color amarillo_institucional
+		content "\e603"
+	.icon-books:before
+		font-size 2em
+		vertical-align middle
+		color amarillo_institucional
+		content "\e610"
+	.icon-question1:before
+		font-size 2em
+		vertical-align middle
+		color amarillo_institucional
+		content "\e612"
+	.selectstyle
+		color white
+		padding 10px
+		cursor pointer
+		width 90%
+		margin-bottom 2em
+		background azul_institucional
+	.point_bachelor
+		text-decoration none
+		list-style none
+		background azul_institucional
+		width 100%
+		text-align center
+	.point
+		list-style none
+		text-decoration none
+		width 100%
+	.design_info_div
+		background gris
+		&:last-child
+			margin-bottom 0
+	.text_info_bachelor
+		font-weight bold
+		color amarillo_institucional
+		text-align center
+	#info_bachelor
+		text-align center
+		width 90%
+		margin 0 auto
+	body
+		font-size 16px
+		#title
+			color azul_institucional
+			text-align center
+			margin 0
+		#select
+			text-align center		
+		a p 
+			padding-top 1em
+@media screen and (min-width: 480px)
+	#todo
+		display none
+	.icon-flag2:before
+		font-size 2em
+		vertical-align middle
+		color amarillo_institucional
+		content "\e618"	
+	.icon-group:before
+		font-size 2em
+		vertical-align middle
+		color amarillo_institucional
+		content "\f0c0"
+	.icon-person:before
+		font-size 2em
+		vertical-align middle
+		color amarillo_institucional
+		content "\e60d"
+	.icon-suitcase:before
+		font-size 2em
+		vertical-align middle
+		color amarillo_institucional
+		content "\f0f2"
+	.icon-graduate:before
+		font-size 2em
+		vertical-align middle
+		color amarillo_institucional
+		content "\e603"
+	.icon-books:before
+		font-size 2em
+		vertical-align middle
+		color amarillo_institucional
+		content "\e610"
+	.icon-question1:before
+		font-size 2em
+		vertical-align middle
+		color amarillo_institucional
+		content "\e612"
+	.selectstyle
+		color white
+		padding 10px
+		cursor pointer
+		width 90%
+		margin-bottom 2em
+		background azul_institucional
+	.point_bachelor
+		text-decoration none
+		list-style none
+		background azul_institucional
+		width 100%
+		text-align center
+	.point
+		list-style none
+		text-decoration none
+		width 100%
+	.design_info_div
+		background gris
+		&:last-child
+			margin-bottom 0
+	.text_info_bachelor
+		font-weight bold
+		color amarillo_institucional
+		text-align center
+	#info_bachelor
+		text-align center
+		width 90%
+		margin 0 auto
+	body
+		font-size 16px
+		#title
+			color azul_institucional
+			text-align center
+			margin 0
+		#select
+			text-align center		
+		a p 
+			padding-top 1em
+@media screen and (min-width: 1200px)
+	#movil
+		display none
+	#todo
+		display inline-block
+		width 100%
+		position relative
+		padding-bottom 2em
+	#square
+		width 0px
+		height 0px
+		border-style solid
+		border-width 10px
+		border-color #CC9900 #CC9900 #CC9900 #CC9900
+		display inline-block
+		margin-right 1em
+	#line
+		border-bottom 5px solid #CC9900
+		width 60%
+	.degree
+		display inline-block
+		font-weight bold
+	#menu_degree
+		width 20%
+		display inline-block
+		height 1500px
+		margin-right 3%
+	#info_degree
+		width 76%
+		display inline-block
+		position absolute
+	.desplegable
+		background azul_institucional
+		color white
+		text-align center
+		padding 1em 4em
+		display inline-block
+		width 35%
+		margin-left 5px
+		font-weight bold
+		margin-bottom 2px
+		&:hover
+			background amarillo_institucional
+	.subnavegador
+		margin-bottom 0.5em
+		.link
+			background gris
+			margin-bottom 5px
+			padding 1em
+			width 80%
+			text-align center
+			margin-left 5px
+			color black
+			.link_degree
+				color black
+				font-weight bold
+			&:hover
+				background amarillo_institucional
+	.resp-tabs-list
+		width 100%
+	.resp-tabs-list li 
+		display inline-block
+		font-weight bold
+		padding 10px 20px
+		margin 0
+		list-style none
+		cursor pointer
+		background azul_institucional
+		color white
+		width 10%
+		text-align center
+		margin-right 5px
+		&:hover
+			background amarillo_institucional
+	.resp-tabs-container 
+		padding 0px
+		background-color #fff
+		clear left
+	h2.resp-accordion
+		cursor pointer
+		padding 5px
+		display none
+	.resp-tab-content
+		display none
+		padding 15px
+	.resp-tab-active 
+		border 1px solid #c1c1c1
+		border-bottom none
+		margin-bottom -1px !important
+		padding 12px 14px 14px 14px !important
+	.resp-tab-active 
+		border-bottom none
+		background-color #fff
+	 .resp-accordion-active 
+		display block
+	.resp-tab-content 
+		border 3px solid azul_institucional
+@media screen and (min-width: 1500px)
+	#movil
+		display none
+	#todo
+		display inline-block
+		width 100%
+		position relative
+		padding-bottom 2em
+	#square
+		width 0px
+		height 0px
+		border-style solid
+		border-width 10px
+		border-color #CC9900 #CC9900 #CC9900 #CC9900
+		display inline-block
+		margin-right 1em
+	#line
+		border-bottom 5px solid #CC9900
+		width 60%
+	.degree
+		display inline-block
+	#menu_degree
+		width 20%
+		display inline-block
+		height 1400px
+	#info_degree
+		width 76%
+		display inline-block
+		position absolute
+	.desplegable
+		background azul_institucional
+		color white
+		text-align center
+		padding 1em 4em
+		display inline-block
+		width 35%
+		margin-left 5px
+		font-weight bold
+		margin-bottom 2px
+		&:hover
+			background amarillo_institucional
+	.subnavegador
+		margin-bottom 0.5em
+		.link
+			background gris
+			margin-bottom 5px
+			padding 1em
+			width 67%
+			text-align center
+			margin-left 5px
+			color black
+			.link_degree
+				color black
+				font-weight bold
+			&:hover
+				background amarillo_institucional
+	.resp-tabs-list
+		width 100%
+	.resp-tabs-list li 
+		display inline-block
+		font-weight bold
+		padding 10px 20px
+		margin 0
+		list-style none
+		cursor pointer
+		background azul_institucional
+		color white
+		width 10%
+		text-align center
+		margin-right 5px
+		&:hover
+			background amarillo_institucional
+	.resp-tabs-container 
+		padding 0px
+		background-color #fff
+		clear left
+	h2.resp-accordion
+		cursor pointer
+		padding 5px
+		display none
+	.resp-tab-content
+		display none
+		padding 15px
+	.resp-tab-active 
+		border 1px solid #c1c1c1
+		border-bottom none
+		margin-bottom -1px !important
+		padding 12px 14px 14px 14px !important
+	.resp-tab-active 
+		border-bottom none
+		background-color #fff
+	 .resp-accordion-active 
+		display block
+	.resp-tab-content 
+		border 3px solid azul_institucional
+
+
+
+
+
+
+
+
+
+
+
