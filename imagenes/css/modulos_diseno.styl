@@ -1,0 +1,159 @@
+azul_institucional=#003366
+amarillo_institucional=#CC9900
+gris=#CCCCCC
+.linea_amarilla_art	
+	border-bottom 10px solid azul_institucional
+	width 100%
+figure
+	margin 0
+body
+	#reparacion
+		width 100%
+		img
+			width 100%
+	font-size 16px	
+	#info_mod_div
+		background azul_institucional
+		width 100%	
+		#info_mod 
+			width 100%
+			display inline-block
+			color white
+			text-align justify
+		#img_info_mod
+			width 50%
+			display inline-block
+			margin 0 auto
+			img
+				width 100%
+	.tabs
+		text-align center
+		li
+			display inline-block
+			margin 0 2em 0  0
+			font-weight bold
+			color azul_institucional
+			&:hover
+				cursor	pointer
+	.perro::before
+	.perro::after		
+		opacity 0
+		-ms-opacity 0
+		-webkit-transition -webkit-transform 0.3s, opacity 0.2s
+		-moz-transition -moz-transform 0.3s, opacity 0.2s
+		-ms-transition -ms-transform 0.3s, opacity 0.2s
+		-o-ttransition -o-transform 0.3s, opacity 0.2s
+		transition transform 0.3s, opacity 0.2s
+		cursor pointer
+	.perro::before 
+		margin-right 10px
+		content '['
+		-webkit-transform translateX(20px)
+		-moz-transform translateX(20px)
+		-ms-transform translateX(20px)
+		-o-transform translateX(20px)
+		transform translateX(20px)
+		cursor pointer
+	.perro::after 
+		margin-left 10px
+		content ']'
+		-webkit-transform translateX(-20px)
+		-moz-transform translateX(-20px)
+		-ms-transform translateX(-20px)
+		-o-transform translateX(-20px)
+		transform translateX(-20px)
+		cursor pointer
+	.perro:hover::before
+	.perro:hover::after
+	.perro:focus::before
+	.perro:focus::after 
+		-ms-opacity 1
+		opacity 1
+		-webkit-transform translateX(0px)
+		-moz-transform translateX(0px)
+		-ms-transform translateX(0px)
+		-o-transform translateX(0px)
+		transform translateX(0px)
+		color amarillo_institucional
+		cursor pointer
+	.tabs-content
+		background #8000FF
+		position relative
+	.slider_h
+	.slider_p
+	.slider_s
+	.slider_x
+		border 5px solid azul_institucional
+		width 90%
+		margin 0 auto
+		position relative
+	.botones
+		display inline-block
+		width 100%
+		position absolute
+		top 50%
+		text-decoration none
+		.x
+			float left
+			text-decoration none
+		.y
+			float right
+			text-decoration none
+	.title_art
+		color azul_institucional
+		text-align center
+		margin 0
+		padding 1em 0
+		font-size 22px
+	.article_module_online
+		border-radius .5em
+		box-shadow 2px 2px 10px rgba(0,0,0,0.5)
+		background gris
+		margin-bottom 1em
+		&:last-child
+			margin-bottom 0
+	.information_mod
+		padding-left 0.5em
+		background gris
+	.image_mod
+		float left
+		img
+			height 160px
+			vertical-align top
+			width 120px
+			border-radius 50% 
+			padding 5px 3px 0 3px
+	.title_name_mod
+		padding 0.5em 
+		color amarillo_institucional
+	.name_person_mod
+		padding 1em
+		color black
+	.addres_person_mod
+		color azul_institucional
+		padding-bottom 2em
+		display block
+		font-weight bold
+	.email_person_mod
+		padding .2em .5em
+		margin 0
+h1
+	padding-top 1em
+	font-weight bold
+	color amarillo_institucional
+	text-align center
+
+@media screen and (min-width: 768px)
+	.article_module_online
+		display inline-block !important
+		width 46%
+		vertical-align top
+		/*pseudo-clase odd=impares=2n+1  even=pares=2n*/
+		&:nth-child(odd)
+			margin-left 2%
+		&:nth-child(even)
+			margin-left 2%
+		
+		
+
+
